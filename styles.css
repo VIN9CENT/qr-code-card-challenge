@@ -16,7 +16,7 @@
 }
 
 .card {
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -40,11 +40,15 @@
 .card__header {
   font-weight: 700;
   margin: 0 2rem 2rem;
+  font-size: 1.2rem;
+  color: hsl(218, 44%, 22%);
 }
 
 .card__text {
   margin: 0 2rem 2rem;
   font-weight: 400;
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
 }
 
 .footer {
